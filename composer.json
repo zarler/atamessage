@@ -1,0 +1,15 @@
+{
+    "name": "atasdk/message",
+    "description": "test",
+    "require": {
+        "curl/curl": "2.3.0"
+    },
+    "autoload": {
+        "psr-4": {"atasdk\\": "src"}
+    },
+    "autoload-dev": {
+        "psr-4": {"atasdktests\\": "tests"}
+    },
+    "minimum-stability": "dev",
+    "license": "MIT"
+}
